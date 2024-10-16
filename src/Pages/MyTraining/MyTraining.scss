@@ -1,0 +1,22 @@
+@import '../../scss/_variables'; 
+
+.myTraining {
+    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.myTrainingTitle {
+    color: $text-color;
+    font-size: $font-size-large;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+}
+
+.myTrainingTitle:hover {
+    cursor: pointer;
+}

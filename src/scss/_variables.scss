@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-$primary-color: white; // Main theme color
-$secondary-color: rgb(255, 0, 0); // Secondary color for accents
-$background-color: rgb(30, 30, 30); // Background color
-$text-color: white; // Default text color
+$primary-color: #f95959; // Main theme color
+$secondary-color: #455d7a; // Secondary color for accents
+$third-color: #e3e3e3;
+$background-color: #233142; // Background color
+$text-color: #e3e3e3; // Default text color
 $header-height: 60px; // Height of the header
 
 // Font Variables
 $font-family: 'Kanit', sans-serif; // Default font family
-$font-size-base: 16px; // Base font size
-$font-size-large: 3rem; // Larger font size for headings
+$font-size-base: 25px; // Base font size
+$font-size-large: 30px; // Larger font size for headings
 
 // Spacing Variables
 $padding-small: 8px; // Small padding

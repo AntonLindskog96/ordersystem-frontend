@@ -14,5 +14,87 @@
   font-size: $font-size-large;
   text-decoration: none;
   color: $text-color;
+  z-index: 100;
+}
+
+.navIcon {
+ display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: $font-size-base;
+  color: $text-color;
+  text-decoration: none;
+}
+
+@media  screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+
+  }
+
+  .navIcon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    
+  }
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+  }
+  
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: $background-color;
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}
+
+
+
+
+
+
+.title:hover {
+  color: $primary-color;
+  cursor: pointer;
 }
   
+.navIcon:hover {
+  cursor: pointer;
+  color: $primary-color;
+}

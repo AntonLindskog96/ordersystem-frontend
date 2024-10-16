@@ -2,7 +2,7 @@
 import React from 'react';
 import "./App.scss";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import MyTraining from "./Pages/MyTraining";
+import MyTraining from "./Pages/MyTraining/MyTraining";
 import Navbar from './Components/Navbar/Navbar';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <div className='app'>
         <Routes>
           <Route path="/" element={<Navbar />} /> 
-          <Route path="/my-training" element={<MyTraining />} /> {/* Ensure path is correct */}
+          <Route path="/myTraining" element={<MyTraining />} /> {/* Ensure path is correct */}
         </Routes>
       </div>
     </BrowserRouter>
