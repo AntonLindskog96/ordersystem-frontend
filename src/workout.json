@@ -1,0 +1,26 @@
+{
+"Pull": [
+      { "exercise": "Deadlift", "reps": "3 x 8-10" },
+      { "exercise": "Chin-Ups", "reps": "3 x 6-8" },
+      { "exercise": "Barbell Row", "reps": "3 x 8-10" },
+      { "exercise": "Dumbbell Fly", "reps": "3 x 10-12" },
+      { "exercise": "Face Pulls", "reps": "3 x 12-15" },
+      { "exercise": "Bicep Curls", "reps": "3 x 10-12" }
+    ],
+    "Push": [
+      { "exercise": "Bench Press", "reps": "3 x 8-10" },
+      { "exercise": "Dumbbell Press", "reps": "3 x 8-10" },
+      { "exercise": "Dips", "reps": "3 x 6-8" },
+      { "exercise": "Shoulder Press", "reps": "3 x 10-12" },
+      { "exercise": "Incline Dumbbell Press", "reps": "3 x 10-12" },
+      { "exercise": "Tricep Pushdowns", "reps": "3 x 10-12" }
+    ],
+    "Legs": [
+      { "exercise": "Squats", "reps": "3 x 8-10" },
+      { "exercise": "Leg Press", "reps": "3 x 10-12" },
+      { "exercise": "Lunges", "reps": "3 x 8-10" },
+      { "exercise": "Calf Raises", "reps": "3 x 12-15" },
+      { "exercise": "Romanian Deadlifts", "reps": "3 x 8-10" },
+      { "exercise": "Leg Curls", "reps": "3 x 10-12" }
+    ]
+}
